@@ -1,0 +1,295 @@
+//  Import Fonts 
+// @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+// Start Styling App From Here 
+body{
+  font-family: Tahoma;
+  color:#fff;
+  font-family: 'Merriweather', serif;
+} 
+
+
+//  start style Title 
+.title-section{
+  background:black;
+  color:#fff;
+  font-family: 'Merriweather', serif;
+  margin: 10px auto;
+  // width:100px;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+  padding:3px 5px;
+  text-transform: capitalize;
+}
+
+
+// Start Hero Styling 
+.Header{
+  background-color:rgb(247, 247, 247);
+  height: 300px;
+  padding:80px 0px;
+  // background-color:transparent;
+  fill:rgb(255, 255, 255);
+  background-size:182px 182px;
+  background-repeat:repeat;
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' fill-opacity='1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' style='enable-background:new 0 0 500 500'%3E%3Cstyle%3E .st0{fill:rgb(255, 255, 255)} %3C/style%3E%3Ccircle class='st0' cx='87.5' cy='46.5' r='8.5'/%3E%3Ccircle class='st0' cx='94.5' cy='124.5' r='15.5'/%3E%3Ccircle class='st0' cx='244.5' cy='91.5' r='21.5'/%3E%3Ccircle class='st0' cx='348.5' cy='80.5' r='7.5'/%3E%3Ccircle class='st0' cx='155' cy='356' r='10'/%3E%3Ccircle class='st0' cx='422' cy='139' r='14'/%3E%3Ccircle class='st0' cx='123' cy='251' r='6'/%3E%3Ccircle class='st0' cx='280' cy='204' r='11'/%3E%3Ccircle class='st0' cx='315' cy='311' r='11'/%3E%3Ccircle class='st0' cx='262' cy='411' r='6'/%3E%3Ccircle class='st0' cx='455.5' cy='395.5' r='12.5'/%3E%3Ccircle class='st0' cx='432' cy='500' r='25'/%3E%3Ccircle class='st0' cx='432' r='25'/%3E%3Ccircle class='st0' cx='-3.5' cy='240.5' r='10.5'/%3E%3Ccircle class='st0' cx='496.5' cy='240.5' r='10.5'/%3E%3Ccircle class='st0' cx='96' cy='437' r='3'/%3E%3C/svg%3E");
+  .name{
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    color:#282c34;
+  }
+  .title{
+    font-family: 'Caveat', cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    .feild{
+      background: black;
+      color:#fff;
+      margin-left: 10px;
+      padding: 5px ;
+      line-height: 2;
+      font-family: initial;
+    }
+  }
+}
+
+//  Start Styling About 
+.about{
+  padding: 50px 0px;
+  .img{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    border:none;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1),-1px -1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+    img{
+      height:100%;
+      width:100%;
+    }
+  }
+  .desc-content{
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.3;
+    // font-family: 'Merriweather', serif;
+    color:#282c34;
+  }
+}
+
+
+//  Start Styling Skills 
+.skills{
+  padding:50px 0px;
+  background-color:rgb(247, 247, 247);
+  padding:80px 0px;
+  fill:#fff;
+  background-size:531px 531px;
+  background-repeat:repeat;
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' fill-opacity='1' style='enable-background:new 0 0 500 500'%3E%3Cstyle%3E .st2{fill:rgba(255,255,255,1)} %3C/style%3E%3Cg style='display:none'%3E%3Cpath style='display:inline;fill:%23006838' d='M-9.7-3.7h534v534h-534z' id='Layer_2'/%3E%3C/g%3E%3Cg id='Layer_1'%3E%3Cpath class='st2' d='M203.1 58.9c-1.7-.8-3-.5-3.8-.3-.1 0-.2 0-.2.1-.1-.1-.4-.2-.8-.6-3.6-3.1-6.5-3.4-7-3.4-.3 0-.6 0-.9.1l-34.2 11.4c-.6.2-1.1.6-1.4 1.2 0 0-.8 1.2-3.1 3.2-2.2 1.8-4.9 2-4.9 2-1.2.1-2.2 1-2.4 2.2 0 0-.2 1-.8 1.2-2.2.9-5.7 3.1-6.1 3.4-.2.1-.3.2-.5.4l-1.2 1.2c-1.6.3-4.3.9-5.8 1.8-.7.4-1.3 1-1.9 1.5-1.2 1-2.5 2.2-4 2.6-.8.2-2 0-3.2-.2-1.8-.4-4.1-.8-6.2.5-.7.5-1.8 1.3-3.2 2.3-2.7 2-6.5 4.8-8.9 5.9l-1.2.6c-3.6 1.8-3.7 1.6-4.3 1-.9-1-1.2-1.7-1.6-2.8-.5-1.3-1.2-2.9-2.9-5.3-3.6-5-7.2-4.2-9.2-3.7-.2.1-.5.1-.7.2-1.4.2-2.4.9-3.1 1.4-.1.1-.3.2-.4.3-1.5-.5-2.6-.6-3.5-.6-.5 0-.8 0-1.1-.1-1.8-.5-4-.2-4.4-.1-.8.1-1.5.6-1.9 1.3-.4.7-.5 1.5-.2 2.3l1.1 2.9c.1.3.3 1.1.4 2.1.2 1.8 1.6 7.5 2.1 9.3.5 1.9.8 2.9 1.1 4.7.3 1.6 1 2.6 1.4 3.2 0 .1-.1.2-.1.3-.6 1.3-1.6 3.5-.5 6.2.4 1.1.9 3.1 1.4 4.9.6 2.2.9 3.6 1.3 4.6.6 1.9 3.4 19.8 3.5 25.2.1 3.6-.2 9.2-.4 13.3-.1 2.2-.2 4-.2 4.9 0 .7-.3 1.3-.6 2-.4.9-1.1 2.5-.3 4.2.7 1.3 2 1.7 3 2 1.7.5 2.2.8 2.3 2.2.1 1.4.1 2.4 0 3.3-.1 2.2-.1 3.7 1.6 6.6 2.7 4.8 5.6 5.1 8.3 5 2-.1 33.6-8.6 55.2-14.8 7.6-2.2 14-4.1 17.3-5.2 13.5-4.6 60.3-20.4 60.8-20.6.7-.2 1.3-.7 1.6-1.4.3-.7.3-1.4 0-2.1-7.1-16.8-14.8-35.9-15.2-38.5-.1-1.8-.4-3.2-.6-4.7-.3-1.3-.5-2.7-.7-4.4-.6-6-4.6-6.3-6.6-6.4h-.3c-1-.1-1.2-.2-1.2-.2s-.2-.2-.2-.9c-.3-2.6-.3-4.1.2-5.6.1-.3.2-.5.3-.7.6-1.6.8-2.4 1.1-6.2.2-2 0-3.4 0-4.3-.1-1.2-.1-1.7.2-2.7.7-2.2.4-4.3.1-6.1-.2-1.1-.3-2.1-.2-2.9.1-.4.2-.8.2-1.2.6-2.9 1.5-7.1-2.4-9zm-2.7 7.6c-.1.4-.2.9-.3 1.3-.3 1.7 0 3.3.2 4.7.2 1.3.4 2.6.1 3.5-.7 2.1-.6 3.5-.5 4.9.1.9.2 1.9 0 3.5-.3 3.2-.4 3.6-.8 4.7-.1.2-.2.5-.3.8-.9 2.6-.8 5.2-.5 7.9.5 5.4 4.8 5.7 6.2 5.8h.3c.5 0 1.2.1 1.4.2 0 0 .3.3.4 1.5.2 2 .5 3.6.8 4.9.3 1.4.5 2.6.6 4 .1 2.9 9.4 25.6 14.5 37.7-10.2 3.4-46.5 15.7-58.1 19.7-13.6 4.7-67.4 19.2-71 19.7-1.5.1-2.1 0-3.4-2.3-1-1.8-1-2.2-.9-3.8 0-.9.1-2.2 0-3.9-.3-4.4-3.3-5.9-5.2-6.6.4-.8.7-2 .7-3.4 0-.8.1-2.6.2-4.7.2-4.2.5-9.9.4-13.6-.1-5.3-2.9-24.9-3.9-27.2-.3-.6-.7-2.3-1.1-3.8-.5-2-1-4.1-1.6-5.5-.2-.6-.1-1.1.4-2.2.3-.6.6-1.4.7-2.2.2-1.7-.6-2.7-1.1-3.4-.3-.4-.4-.6-.5-.9-.3-2.1-.7-3.4-1.3-5.3-.5-1.9-1.8-7.2-1.9-8.4-.1-1.1-.3-2-.4-2.5.4 0 .7.1 1 .1.7 0 1.3.1 2.1.4 2.4.9 4.1-.3 5.1-1 .4-.2.7-.5.9-.5.4-.1.7-.1 1.1-.2 1.5-.4 2.1-.5 3.7 1.6 1.3 1.9 1.9 3.1 2.3 4.3.5 1.3 1.1 2.6 2.5 4.2 3.4 3.9 7.4 1.9 10.6.3l1.2-.6c2.8-1.4 6.8-4.3 9.7-6.4 1.3-.9 2.3-1.7 2.9-2.1.3-.1 1.6.1 2.3.2 1.6.3 3.6.7 5.7.1 2.7-.8 4.6-2.5 6-3.7.5-.4 1-.8 1.3-1 .6-.4 3-1 4.7-1.3.5-.1 1-.3 1.4-.7l1.6-1.6c1.1-.7 3.7-2.2 5.1-2.8 1.8-.8 2.8-2.2 3.4-3.3 1.6-.4 3.9-1.2 6-2.9 1.9-1.6 3.1-2.9 3.7-3.7l32.5-11c.6.2 1.9.7 3.4 2 2.4 2.1 4 2.2 5.8 1.7h.2c.1.6-.2 1.9-.3 2.8z'/%3E%3Cpath class='st2' d='M119.7 144.4c-2.3.7-4.2 2.2-5.3 4.3-2-1.2-4.5-1.5-6.8-.8-4.7 1.4-7.4 6.3-6.1 11 2.9 10 18.6 15.9 19.3 16.2.4.1.8.2 1.2 0 .4-.1.7-.3 1-.7.4-.6 10.6-13.9 7.7-24-1.4-4.6-6.3-7.4-11-6zm1.1 26.6c-3.6-1.6-13.7-6.5-15.7-13.2-.8-2.7.8-5.5 3.5-6.3 1.9-.5 3.9.1 5.2 1.6.5.6 1.2.8 1.9.6.7-.2 1.2-.8 1.3-1.5.3-2 1.7-3.6 3.6-4.1 2.7-.8 5.5.8 6.3 3.5 2.1 6.7-3.9 16.1-6.1 19.4z'/%3E%3Cg%3E%3Cpath class='st2' d='M477.1 410.2c-.9-1.3-1.9-1.6-2.5-1.8h-.2c-.1-.1-.2-.3-.3-.7-1.2-3.6-3-5-3.4-5.2-.2-.1-.4-.2-.7-.3l-28-6.3c-.5-.1-1-.1-1.5.2 0 0-1 .5-3.4.9-2.2.3-4.2-.6-4.2-.6-.9-.4-1.9-.2-2.6.5 0 0-.5.6-1 .5-1.9-.3-5.2-.2-5.6-.2-.2 0-.3 0-.5.1l-1.3.3c-1.2-.4-3.3-1.1-4.7-1.1-.6 0-1.3.1-2 .3-1.2.2-2.6.5-3.8.1-.7-.2-1.4-.8-2.1-1.5-1.1-1-2.5-2.3-4.4-2.2-.7 0-1.8.1-3.2.3-2.7.3-6.4.6-8.5.4-.4 0-.7-.1-1.1-.1-3.2-.2-3.2-.4-3.3-1.1-.2-1-.1-1.7 0-2.6.2-1.1.4-2.5.2-4.8-.4-4.9-3.2-5.8-4.8-6.3-.2-.1-.4-.1-.6-.2-1.1-.4-2-.4-2.7-.3h-.4c-.8-.9-1.6-1.5-2.1-1.8-.3-.2-.6-.4-.7-.6-1-1.1-2.7-1.8-3-1.9-.6-.2-1.2-.2-1.8.1-.6.3-.9.8-1.1 1.5l-.4 2.4c-.1.2-.3.9-.6 1.6-.6 1.3-2 5.8-2.4 7.2-.4 1.5-.6 2.3-1.2 3.7-.5 1.2-.4 2.2-.3 2.8-.1.1-.2.1-.2.2-.9.7-2.5 1.8-2.9 4.1-.2 1-.6 2.5-1.1 3.9-.5 1.8-.9 2.9-1 3.7-.4 1.6-5.8 15-7.9 18.7-1.4 2.5-3.9 6.2-5.7 8.9-1 1.5-1.8 2.6-2.1 3.3-.3.5-.7.8-1.2 1.1-.7.5-1.8 1.2-1.9 2.8-.1 1.2.6 2 1.2 2.6.9 1 1.2 1.5.7 2.4-.5 1-.9 1.7-1.3 2.2-1 1.4-1.6 2.5-1.6 5.2-.1 4.4 1.7 5.8 3.6 6.8 1.4.8 26.5 7.9 43.8 12.5 6.1 1.6 11.3 2.9 14 3.5 11.1 2.4 49.6 10.8 50 10.9.6.1 1.2 0 1.6-.3.5-.3.8-.9.9-1.4 2.1-14.4 4.7-30.7 5.4-32.6.7-1.2 1.1-2.3 1.5-3.5.4-1 .7-2 1.3-3.3 2.1-4.3-.6-6.2-1.9-7.1l-.2-.1c-.6-.4-.7-.6-.7-.6s0-.2.2-.7c.9-1.9 1.5-2.9 2.4-3.7.2-.1.3-.3.5-.4 1.1-.8 1.6-1.3 3.3-3.7.9-1.3 1.4-2.3 1.8-3 .4-.8.6-1.2 1.3-1.8 1.4-1.2 2-2.7 2.6-4.1.3-.8.6-1.6 1-2.1.2-.2.4-.5.6-.7 1.8-1.6 4.1-4.1 2.2-7zm-4.9 4c-.2.3-.5.5-.7.8-.9 1-1.4 2.2-1.8 3.3-.4 1-.8 2-1.4 2.5-1.4 1.2-1.9 2.1-2.4 3.2-.3.6-.7 1.4-1.4 2.4-1.5 2.1-1.7 2.3-2.5 2.9-.2.1-.3.3-.5.4-1.7 1.4-2.7 3.3-3.6 5.2-1.8 3.9.9 5.9 1.9 6.6l.2.2c.3.2.8.5.8.7 0 0 .1.3-.4 1.2-.7 1.5-1.1 2.6-1.5 3.7-.4 1.1-.7 2-1.2 2.9-1.1 2.1-4 21.4-5.5 31.7-8.4-1.8-38.2-8.4-47.8-10.4-11.2-2.4-54-14.6-56.7-15.7-1.1-.6-1.4-.8-1.4-3 0-1.7.2-1.9.9-3 .4-.6 1-1.4 1.6-2.7 1.6-3.1.2-5.4-.8-6.6.6-.4 1.3-1.1 1.9-2 .3-.6 1.1-1.7 2.1-3.1 1.8-2.8 4.4-6.6 5.9-9.2 2.1-3.7 8.2-18.2 8.5-20.2.1-.5.5-1.9.8-3 .5-1.6 1-3.2 1.2-4.4.1-.5.4-.8 1.2-1.3.5-.3 1-.7 1.4-1.2.8-1.1.7-2.1.6-2.8 0-.4 0-.6.1-.8.6-1.6.9-2.6 1.3-4.2.4-1.5 1.7-5.7 2.1-6.6.3-.8.6-1.5.7-1.9.2.2.5.3.7.5.5.3.9.6 1.3 1.1 1.3 1.6 3 1.5 3.9 1.4h.8l.9.3c1.2.4 1.7.5 1.8 2.6.1 1.9 0 2.9-.2 3.9-.2 1.1-.3 2.2 0 3.9.7 4.1 4.3 4.3 7.2 4.5.3 0 .7.1 1 .1 2.5.2 6.4-.2 9.2-.4 1.2-.1 2.3-.2 2.9-.2.3 0 1 .7 1.5 1.1 1 .9 2.2 2 3.8 2.4 2.1.6 4.2.2 5.6-.1.5-.1 1-.2 1.3-.2.6 0 2.4.5 3.7 1.1.4.2.9.2 1.3.1l1.7-.4c1.1 0 3.4 0 4.6.2 1.6.2 2.8-.3 3.7-.9 1.2.4 3.2.8 5.3.5 2-.3 3.3-.7 4.1-1l26.8 6c.3.4 1 1.2 1.5 2.8.8 2.4 1.9 3.1 3.3 3.5h.1c-.2.3-1 1.1-1.4 1.6z'/%3E%3Cpath class='st2' d='M385 434.4c-1.9-.5-3.8-.2-5.4.8-.9-1.6-2.5-2.9-4.3-3.4-3.8-1-7.6 1.2-8.6 5-2.1 8 6.2 18.6 6.5 19 .2.3.5.4.8.5.3.1.6.1.9-.1.5-.2 13-5.1 15.1-13.2 1-3.7-1.3-7.6-5-8.6zM374.8 453c-1.8-2.6-6.7-10.1-5.3-15.4.6-2.2 2.8-3.5 5-2.9 1.5.4 2.7 1.7 2.9 3.2.1.6.5 1 1.1 1.2.6.2 1.2 0 1.5-.5 1-1.2 2.6-1.7 4.2-1.3 2.2.6 3.5 2.8 2.9 5-1.5 5.4-9.4 9.4-12.3 10.7z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  .skill{
+    display: inline-block;
+    margin:5px 10px;
+    .box-img{
+      width:50px;
+      height: 50px;
+      margin: 5px auto;
+      img{
+        height: 100%;
+        width:100%;
+      }
+    }
+  }
+}
+
+// Start Styling Projects 
+.projects{
+  padding: 50px 0px;
+  background-color: #F1F5F8;
+  .project{
+    border:none;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1),-1px -1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin:15px 0px;
+    background-color: #fff;
+    color:#F53C34;
+    padding:5px 5px 22px 5px;
+    border-radius: 5px;
+    .title-project{
+    font-family: 'Caveat', cursive;
+    margin-left: 5px;
+    
+    }
+    .desc{
+      color:#566573;
+      text-transform: capitalize;
+      margin: 0px 0px 10px 5px;
+    }
+    img{
+      width:100%;
+      height:100%;
+    }
+      .skill{
+        background-color: #ff3b3b;
+        padding:1px 10px 3px;
+        margin: 5px;
+        color:#fff;
+        text-transform: capitalize; 
+        border: 0px solid #fff;
+        border-radius: 4px;
+        display: inline-block;
+        box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.15);
+      }
+      .skill.html{
+      background-color:#5bc8ff;
+      }
+       .skill.css{
+      background-color:#ffbd59;
+      }
+       .skill.pugJs{
+      background-color:#ff3b3b;
+      }
+      .skill.sass, .skill.Java{
+      background-color:#45B39D;
+      }
+      .skill.react{
+      background-color:#58D68D;
+      }
+       .skill.Git{
+      background-color:#566573;
+      }
+       .skill.Javascript, .skill.bootstrap{
+      background-color:#566573;
+      }
+       .skill.JQuery{
+      background-color:#45B39D;
+      }
+       .skill.Bootstrap{
+      background-color:#5bc8ff;
+      }
+      .skill.redux{
+        background-color: rgb(155, 53, 252);
+      }
+      .group-btn{
+        display: block;
+        margin-top:20px;
+        .live{
+          text-decoration: none;
+          margin-left: 5px;
+          padding: 5px 5px;
+          background-color: #bd0303;
+           padding:1px 10px 3px;
+           margin: 5px;
+           color:#fff;
+           text-transform: capitalize; 
+           border: 0px solid #fff;
+           border-radius: 4px;
+           // display: inline-block;
+           box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.15);
+          // background-color:#ff3b3b ;
+          width: 50px;
+        }
+        .github{
+          // background-color:;
+          font-weight: 400;
+          font-size: 18px;
+          float: right;
+          text-transform: capitalize;
+          color:#566573;
+          text-decoration: none;
+          // font-family: 'Caveat', cursive;
+        }
+      }
+     
+  }
+}
+
+// start styling Contact 
+.contact{
+  padding: 50px 0px;
+  .content-contact{
+    margin-top:50px;
+    // text-transform: capitalize;
+    .mail{
+      // color:#ff3b3b;
+      //  font-family: 'Caveat', cursive;
+      font-family:  Arial, sans-serif;
+      font-weight: 500;
+      color:#566573;
+      font-size: 20px;
+    } 
+    .mobile{
+      color:#566573;
+        //  color:#ff3b3b;
+    }
+    .resume{
+      background-color: #04cf5f;
+      padding:4px 10px 6px 10px;
+      color:#fff;
+      text-transform: capitalize;
+      text-decoration: none;
+      border-radius: 3px;
+      margin-bottom: 20px;
+      // display: block;
+      // text-align: center;
+    }
+    .icons{
+      display: block;
+      margin-top: 40px;
+      .icon{
+        font-size: 1.7rem;
+        margin:5px;
+      }
+      .icon.github a{
+        color:black;
+      }
+      .icon.linkedin a{
+        color:darkcyan;
+      }
+    
+    }
+  }
+}

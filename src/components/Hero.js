@@ -1,0 +1,15 @@
+import React from 'react'
+
+const Hero = () => {
+    return (
+        <section className="Header"> 
+            <div className="container">
+                <header className="content text-center">
+                    <h1 className="name">abdallah abdelghaffar</h1>
+                    <p className="title">software engineer<strong className="feild">( front end developer )</strong></p>
+                </header>
+            </div>
+        </section>
+    )
+}
+export default Hero;
