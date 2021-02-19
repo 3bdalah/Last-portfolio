@@ -1,4 +1,5 @@
 import React from 'react'
+import uuid from 'react-uuid'
 
 const ProjectItem = ({img,title,desc,skills,git,demo}) => {
     return (
@@ -12,7 +13,7 @@ const ProjectItem = ({img,title,desc,skills,git,demo}) => {
                <p className="desc">{desc}</p>
                {skills.map(item => {
                    return (
-                       <p className={`skill ${item}`} >{item}</p>
+                       <p key={uuid()} className={`skill ${item}`} >{item}</p>
                    )
                })}
                 <br/>

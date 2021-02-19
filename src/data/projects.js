@@ -34,6 +34,15 @@ const projects = [
         desc:"just practice ",
         demo:"https://reloadacademy1.netlify.app/",
         git:"https://github.com/abdallllaa/"
+    },
+    {
+        id: 5,
+        title: "old portfolio",
+        img : "./img-public/project6.jpg",
+        skills: ['react','css','bootstrap'],
+        desc:"first virsion my portfolio ",
+        demo:"https://abdalahabdelghafar.netlify.com/",
+        git:"https://github.com/abdallllaa/"
     }
 ];
 export default projects;

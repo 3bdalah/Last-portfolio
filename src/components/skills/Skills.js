@@ -4,7 +4,7 @@ import Skill from "./Skill";
 import Title from "./../Title";
 const Skills = () => {
     const [skill] = useState(skills);
-    console.log(skill);
+    
     return (
         <section className="skills text-center">
          
