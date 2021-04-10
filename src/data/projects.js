@@ -5,8 +5,8 @@ const projects = [
         img : "./img-public/project2.jpg",
         skills: ['css','react','bootstrap','redux'],
         desc:"online store clothes",
-        demo:"https://zaara.netlify.app/",
-        git:"https://github.com/abdallllaa"
+        demo:"https://zarastore.netlify.app/",
+        git:"https://github.com/abdallllaa/zara"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const projects = [
         skills: ['css','react','bootstrap','hooks'],
         desc:"academy online and offline",
         demo:"https://megira.netlify.app/",
-        git:"github.com/abdallllaa/academy"
+        git:"https://github.com/abdallllaa/academy"
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const projects = [
         skills: ['html','css','bootstrap','responsive'],
         desc:"just practice ",
         demo:"https://reloadacademy1.netlify.app/",
-        git:"https://github.com/abdallllaa/"
+        git:"https://github.com/abdallllaa/landing-page"
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const projects = [
         skills: ['react','css','bootstrap'],
         desc:"first virsion my portfolio ",
         demo:"https://abdalahabdelghafar.netlify.com/",
-        git:"https://github.com/abdallllaa/"
+        git:"https://github.com/abdallllaa/portfolio"
     }
 ];
 export default projects;
