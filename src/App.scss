@@ -121,24 +121,32 @@ body{
 //  Start Styling About 
 .about{
   padding: 50px 0px;
-  .img{
-  
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.2),-1px -1px 3px rgba(0,0,0,0.2);
-    overflow: hidden;
-  
-    transform: rotate(-5deg);
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    img{
-      height:100%;
-      width:100%;
-    }
+    
+  .img-me{
+    margin-top: 50px;
+    display: block !important;
+    .img{
+      width:150px;
+      height:150px;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.2),-1px -1px 3px rgba(0,0,0,0.2);
+      overflow: hidden;
+      border-radius: 50%;
+     // transform: rotate(-5deg);
+     // border-radius: 5px;
+     border: none;
+     // padding: 10px;
+     margin: 1px auto;
+     img{
+       height:100%;
+       width:100%;
+     }
+   }
   }
   .description{
     margin-top: 30px;
+    
     .desc-content{
-      text-align: left;
+      // text-align: left;
       font-size: 21px;
       line-height: 1.3;
       font-family: 'Merriweather', serif;
@@ -173,6 +181,11 @@ body{
   .skill{
     display: inline-block;
     margin:5px 10px;
+    // padding:20px 30px;
+    border:2px solid #eee;
+    width: 150px;
+    height:100px;
+    background-color: #f1f4f7;
     .box-img{
       width:50px;
       height: 50px;
@@ -182,13 +195,20 @@ body{
         width:100%;
       }
     }
+    .name-skill{
+      text-transform: capitalize;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      margin:auto
+    }
   }
 }
 
 // Start Styling Projects 
 .projects{
   padding: 50px 0px;
-  background-color: #F1F5F8;
+  
+  background-color: #F8FAFC;
   .project{
     border:none;
     // box-shadow: 1px 1px 3px rgba(0,0,0,0.1),-1px -1px 3px rgba(0,0,0,0.1);
@@ -196,7 +216,7 @@ body{
           
     overflow: hidden;
     margin:15px 0px;
-    background-color: #fff;
+    background-color: #faffff;
     color:#282c34;
     padding:5px 5px 22px 5px;
     border-radius: 5px;
@@ -265,9 +285,9 @@ body{
         .live{
           text-decoration: none;
           margin-left: 5px;
-          padding: 5px 5px;
+          padding:5px 15px;
           background-color: #bd0303;
-           padding:1px 10px 3px;
+          //  padding:1px 10px 3px;
            margin: 5px;
            color:#fff;
            text-transform: capitalize; 

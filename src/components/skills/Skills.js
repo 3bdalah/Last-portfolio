@@ -11,7 +11,7 @@ const Skills = () => {
             <div className="container">
             <Title title="skills"/>
               <div className="row">
-               <div className="col-md-6 col-sm-12 m-auto">
+               <div className="col-md-10 col-sm-12 m-auto">
                {skill.map(item => {
                         return(
                             <Skill key={item.id} {...item}/>

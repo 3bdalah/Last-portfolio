@@ -31,7 +31,7 @@ const projects = [
         title: "static website",
         img : "./img-public/project5.jpg",
         skills: ['html','css','bootstrap','responsive'],
-        desc:"just practice ",
+        desc:"landing Page just practice",
         demo:"https://reloadacademy1.netlify.app/",
         git:"https://github.com/abdallllaa/landing-page"
     }

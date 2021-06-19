@@ -1,6 +1,6 @@
 import React from 'react'
 import uuid from 'react-uuid'
-
+import {FaShareSquare,FaShare}from "react-icons/fa";
 const ProjectItem = ({img,title,desc,skills,git,demo}) => {
     return (
         <div className="col-lg-7 col-md-8 col-sm-12 mx-auto">
@@ -18,8 +18,8 @@ const ProjectItem = ({img,title,desc,skills,git,demo}) => {
                })}
                 <br/>
                    <div className="group-btn">
-                        <a href={demo} target="blank"  className="live">live</a>
-                        <a href={git} target="blank"  className="github">Source code</a>
+                        <a href={demo} target="blank"  className="live">live </a>
+                        <a href={git} target="blank"  className="github"><FaShareSquare/> Source code </a>
                    </div>
             </div>
           
