@@ -182,10 +182,12 @@ body{
     display: inline-block;
     margin:5px 10px;
     // padding:20px 30px;
-    border:2px solid #eee;
+    border:0.4px solid #eee;
     width: 150px;
     height:100px;
     background-color: #f1f4f7;
+    background-color: #fdfeff;
+    border-radius: 5px;
     .box-img{
       width:50px;
       height: 50px;
@@ -210,6 +212,7 @@ body{
   padding: 50px 0px;
   
   background-color: #F8FAFC;
+  background-color: white;
   .project{
     border:none;
     // box-shadow: 1px 1px 3px rgba(0,0,0,0.1),-1px -1px 3px rgba(0,0,0,0.1);
@@ -217,7 +220,7 @@ body{
           
     overflow: hidden;
     margin:15px 0px;
-    background-color: #faffff;
+    background-color: #fdfeff;
     color:#282c34;
     padding:5px 5px 22px 5px;
     border-radius: 5px;
@@ -317,9 +320,11 @@ body{
 // start styling Contact 
 .contact{
   padding: 50px 0px;
+  background-color: #F8FAFC;
   .content-contact{
     margin-top:50px;
     // text-transform: capitalize;
+
     .mail{
       // color:#ff3b3b;
       //  font-family: 'Caveat', cursive;
