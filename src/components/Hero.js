@@ -5,8 +5,9 @@ const Hero = () => {
         <section className="Header"> 
             <div className="container">
                 <header className="content text-center">
-                    <h1 className="name">abdallah abdelghaffar</h1>
+                    <h1 className="name">Hi, I'm abdallah 👋</h1>
                     <p className="title">software engineer<strong className="feild">( front end )</strong></p>
+               
                 </header>
             </div>
         </section>

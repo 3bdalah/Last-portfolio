@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from "./Title";
-import { FaLinkedin ,FaGithubSquare} from "react-icons/fa";
+import { FaLinkedin ,FaGithubSquare,FaTwitter} from "react-icons/fa";
 const Contact = () => {
     return (
         <section className="contact">
@@ -14,6 +14,8 @@ const Contact = () => {
                      <div className="icons">
                      <span className="icon linkedin"><a href="https://www.linkedin.com/in/abdallah-abdelghaffar-65136614b/" target="blank"><FaLinkedin/></a></span>
                       <span className="icon github"><a href="https://github.com/abdallllaa" target="blank"><FaGithubSquare/></a></span>
+                      <span className="icon twitter"><a href="https://twitter.com/3bdallahdev" target="blank"><FaTwitter/></a></span>
+                   
                      </div>
 
                  </div>

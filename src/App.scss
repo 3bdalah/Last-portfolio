@@ -11,7 +11,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -29,18 +29,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*/
 
 
 // Start Styling App From Here 
@@ -63,6 +52,8 @@ body{
   display: inline-block;
   padding:3px 5px;
   text-transform: capitalize;
+  border-radius: 4px;
+  // padding:5px;
 }
 
 //  Responsive
@@ -101,6 +92,7 @@ body{
       padding: 5px ;
       line-height: 2;
       font-family: initial;
+      border-radius: 4px;
     }
   }
 }
@@ -212,13 +204,11 @@ body{
   padding: 50px 0px;
   
   background-color: #F8FAFC;
-  background-color: #EEF0F1;
+  background-color: #fcfcfc;
   
   .project{
     border:none;
-    // box-shadow: 1px 1px 3px rgba(0,0,0,0.1),-1px -1px 3px rgba(0,0,0,0.1);
-     box-shadow: 0 0 0 0.3px rgba(0,0,0,.1), 0px 0px 0px 0.3px rgba(0,0,0,.1);
-          
+     box-shadow: 0 0 0 0.3px rgba(0,0,0,.1), 0px 0px 0px 0.3px rgba(0,0,0,.1);       
     overflow: hidden;
     margin:15px 0px;
     background-color: #fafafa;
@@ -361,13 +351,16 @@ body{
         font-size: 2.5rem;
         margin:5px;
       }
-      .icon.github a{
-        color:black;
-      }
       .icon.linkedin a{
         color:darkcyan;
       }
-    
+      .icon.github a{
+        color:black;
+      }
+      .icon.twitter a{
+        color:#1A91DA;
+      }
+      
     }
   }
 }
