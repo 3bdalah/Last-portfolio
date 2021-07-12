@@ -21,8 +21,8 @@ const projects = [
         id: 3,
         title: "Blog",
         img : "./img-public/project4.jpg",
-        skills: ['css','NextJs'],
-        desc:"just simple blog",
+        skills: ['css','NextJs','react'],
+        desc:"just simple blog and use fetch api and display data post on page posts",
         demo:"https://3bdallahdev.netlify.app/",
         git:"https://github.com/3bdalah/Blog-nextJs"
     },
