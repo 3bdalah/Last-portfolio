@@ -17,15 +17,15 @@ const projects = [
         demo:"https://megira.netlify.app/",
         git:"https://github.com/abdallllaa/academy"
     },
-    // {
-    //     id: 3,
-    //     title: "Reload Academy",
-    //     img : "./img-public/project4.jpg",
-    //     skills: ['html','sass','bootstrap','jQuery'],
-    //     desc:"academy online and offline",
-    //     demo:"https://aacademy.netlify.app/",
-    //     git:"https://github.com/abdallllaa/"
-    // },
+    {
+        id: 3,
+        title: "Blog",
+        img : "./img-public/project4.jpg",
+        skills: ['css','NextJs'],
+        desc:"just simple blog",
+        demo:"https://3bdallahdev.netlify.app/",
+        git:"https://github.com/3bdalah/Blog-nextJs"
+    },
     {
         id: 4,
         title: "static website",
