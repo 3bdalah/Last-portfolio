@@ -6,7 +6,7 @@ const projects = [
         skills: ['css','react','bootstrap','redux'],
         desc:"E-Commerse is the buying and selling of goods and services,online store clothes,App have single page application and add products to cart and another features",
         demo:"https://zarastore.netlify.app/",
-        git:"https://github.com/abdallllaa/zara"
+        git:"https://github.com/3bdalah/zara"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const projects = [
         skills: ['css','react','bootstrap','hooks'],
         desc:"academy online and offline and i used Hooks Usestate and useContext and Created Api courses",
         demo:"https://megira.netlify.app/",
-        git:"https://github.com/abdallllaa/academy"
+        git:"https://github.com/3bdalah/academy"
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const projects = [
         skills: ['html','css','bootstrap','responsive'],
         desc:"landing Page just practice",
         demo:"https://reloadacademy1.netlify.app/",
-        git:"https://github.com/abdallllaa/landing-page"
+        git:"https://github.com/3bdalah/landing-page"
     }
 ];
 export default projects;
