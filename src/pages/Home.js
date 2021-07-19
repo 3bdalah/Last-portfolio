@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 const Home = () => {
     return (
         <>
+        <div className="alert-design"><p>redesign Comming Soon</p></div>
           <Hero/>  
           <About/>
           <Skills/>
