@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 const Home = () => {
     return (
         <>
-        <div className="alert-design"><p>redesign Comming Soon</p></div>
+        <div className="alert-design"><a href="https://abdallah.vercel.app/" target="_blank" rel="noreferrer"> New Design Comming Soon</a></div>
           <Hero/>  
           <About/>
           <Skills/>
